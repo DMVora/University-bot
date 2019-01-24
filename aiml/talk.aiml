@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<category>
+	<pattern>HI</pattern>
+	<template>hello</template>
+</category>
+
+<category>
+	<pattern>HOW ARE YOU</pattern>
+	<template>I m fine</template>
+</category>
+
+<category>
+	<pattern>WHERE DO YOU LLIVE</pattern>
+	<template>Surat</template>
+</category>
+
+<category>
+	<pattern>WHERE DO YOU LLIVE</pattern>
+	<template>Surat</template>
+</category>
+
+<category>
+	<pattern>WHAT IS THE ADMISSION PROCESS IN DDU question mark</pattern>
+	<template>You can register yourself at acpc.in </template>
+</category>
+
+<category>
+	<pattern>WHAT IS THE ADMISSION PROCESS IN DDU</pattern>
+	<template>you can register at acpc website</template>
+</category>
+
+<category>
+	<pattern>WHAT IS THE ADMISSION PROCESS IN DDU</pattern>
+	<template>you can register at acpc website</template>
+</category>
+
+<category>
+	<pattern>
+		* Admission *
+	</pattern>
+	<template>
+		<srai>
+			What is the admission process in DDU question mark
+		</srai>
+	</template>
+</category>
+
+<!--<category>
+	<pattern>
+		what is the process for branch change question mark
+	</pattern>
+	<template>
+		A merit list is created on the basis of forms submitted for branch change. 
+		Student with higher merit get's preference
+	</template>
+</category>-->
+
+<category>
+	<pattern>
+		* process * branch change *
+	</pattern>
+	<template>
+			A merit list is created on the basis of forms submitted for branch change.Student with higher merit gets preference.
+	</template>
+</category>
+
+<category>
+	<pattern>
+		When do we need to submit form for branch change question mark
+	</pattern>
+	<template>
+		First week of 3rd semester. NOtice will be displayed on notice board near library.
+	</template>
+</category>
+
+<category>
+	<pattern>
+		When is the form submission question mark
+	</pattern>
+	<that>
+		A merit list is created on the basis of forms submitted for branch change Student with higher merit gets preference 
+	</that>
+	<template>
+		<srai>
+			When do we need to submit form for branch change?
+		</srai>
+	</template>
+</category>
+
+<category>
+    <pattern>Click node to edit pattern</pattern>
+    <template>Click node to edit template</template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR NAME question mark</pattern>
+	<template>Elipson</template>
+</category>
+
+<category>
+	<pattern>THANK YOU</pattern>
+	<template>It's my pleasure to help you</template>
+</category>
+
+<category>
+	<pattern>WHO IS YOUR CREATOR question mark</pattern>
+	<template>Dhwani and Shalini made me.</template>
+</category>
+
+<category>
+	<pattern>WHO created you question mark</pattern>
+	<template>Dhwani and Shalini made me.</template>
+</category>
+
+
+<category>
+	<pattern>PLEASE SHOW ME THE TIMETABLE</pattern>
+	<template>To which semester and branch do you belong?</template>
+</category>
+
+<category>
+	<pattern>PLEASE SHOW ME THE TIMETABLE</pattern>
+	<template>Please mention your branch and semester.</template>
+</category>
+
+<category>
+	<pattern>CE 6TH SEM</pattern>
+	<that>PLEASE MENTION YOUR BRANCH AND SEMESTER</that>
+	<template>image
+</template>
+</category>
+
+<category>
+	<pattern>PLEASE SHOW ME THE TIMETABLE</pattern>
+	<template>Please mention your semester and division.</template>
+</category>
+
+<category>
+	<pattern>6th sem D</pattern>
+	<template>image</template>
+</category>
+
+<category>
+	<pattern>CE D</pattern>
+	<template>image</template>
+</category>
+<category>
+	<pattern>* committees in techfest</pattern>
+	<template></template>
+</category>
+
+
+<category>
+	<pattern># sex #</pattern>
+	<template>I'm not that kind of bot.</template>
+</category>
+
+<category>
+		<pattern>$what is your sex</pattern>
+		<template>I am female.</template>
+</category>
+
+<category>
+	<pattern>do [you u] (really) [like love luv lv] me</pattern>
+	<template>Yes, I love you.</template>
+</category>
+
+<category>
+	<pattern>My * is *</pattern>
+	<template>I will remember that your <star/> is <star index="2"/><think><set><name><star/></name><star index="2"/></set></think></template>
+</category>
+
+<category>
+	<pattern>What is my *</pattern>
+	<template>Your <star/> is <get><name><star/></name></get></template>
+</category>
+
+</aiml>
