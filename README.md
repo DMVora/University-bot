@@ -1,1 +1,1 @@
-"# University-bot" 
+# University-bot
